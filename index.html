@@ -18,6 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/7f2717fb73.js" crossorigin="anonymous"></script>
     <!-- Custom Tailwind CSS -->
     <script>
       tailwind.config = {
@@ -896,7 +898,7 @@
       <!-- Our new product section end -->
 
       <!-- Clients question section start -->
-      <section>
+      <section  class="my-6 lg:my-28">
         <!-- section description -->
         <div
           class="text-center space-y-6 mb-20 border-y-2 border-[#0d0d1226] border-dotted py-7"
@@ -959,7 +961,104 @@
       <!-- Clients question section end -->
 
       <!-- Get in touch section start -->
-      <section></section>
+      <section  class="my-6 lg:my-28">
+        <div
+          class="text-center space-y-6 mb-20 border-y-2 border-[#0d0d1226] border-dotted py-7"
+        >
+          <h2 class="text-4xl font-extrabold">Get In Touch</h2>
+          <p class="font-medium px-4 lg:px-80">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+        <!-- section content -->
+        <div>
+          <!--upper section  -->
+          <div class="flex gap-6">
+            <!-- contact list section -->
+            <div class="border rounded-2xl p-12 space-y-6 w-2/5">
+              <!-- card-1 -->
+              <div class="p-8 w-96 border rounded-2xl bg-[#bced6d1a]">
+                <img src="./assets/Images/get-in-touch-1.png" alt="" />
+                <p class="text-[#13131866]">Phone Number:</p>
+                <p class="font-extrabold text-lg">(+52) 123-321-543</p>
+              </div>
+              <!-- card-1 -->
+              <div class="p-8 w-96 border rounded-2xl bg-[#fddd5f1a]">
+                <img src="./assets/Images/get-in-touch-2.png" alt="" />
+                <p class="text-[#13131866]">Phone Number:</p>
+                <p class="font-extrabold text-lg">(+52) 123-321-543</p>
+              </div>
+              <!-- card-1 -->
+              <div class="p-8 w-96 border rounded-2xl bg-[#629cf31a]">
+                <img src="./assets/Images/get-in-touch-3.png" alt="" />
+                <p class="text-[#13131866]">Phone Number:</p>
+                <p class="font-extrabold text-lg">(+52) 123-321-543</p>
+              </div>
+            </div>
+            <!-- form section -->
+            <div class="grid grid-cols-2 gap-3 justify-between w-3/5">
+              <div>
+                <h4 class="font-bold text-xl text-[#131318] mb-2">Your Name</h4>
+                <input
+                  class="p-5 bg-[#13131808] rounded-xl w-full"
+                  type="text"
+                  placeholder="Enter your full name"
+                  
+                />
+              </div>
+              <div>
+                <h4 class="font-bold text-xl text-[#131318] mb-2">Your Email</h4>
+                <input
+                  class="p-5 bg-[#13131808] rounded-xl w-full"
+                  type="email"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <div>
+                <h4 class="font-bold text-xl text-[#131318] mb-2">Subject</h4>
+                <input
+                  class="p-5 bg-[#13131808] rounded-xl w-full"
+                  type="text"
+                  placeholder="Enter your subject"
+                />
+              </div>
+              <div>
+                <h4 class="font-bold text-xl text-[#131318] mb-2">Phone Number</h4>
+                <input
+                  class="p-5 bg-[#13131808] rounded-xl w-full"
+                  type="text"
+                  placeholder="Enter your Phone Number"
+                />
+              </div>
+              <div class="col-span-2">
+                <h4 class="font-bold text-xl text-[#131318] mb-2">Message</h4>
+                <textarea
+                  name=""
+                  placeholder="Write your message"
+                  id=""
+                  rows="10"
+                  class="p-5 bg-[#13131808] rounded-xl w-full"
+                ></textarea>
+              </div>
+              <div class="col-span-2">
+                <button class="btn btn-primary w-full">Sent Message</button>
+              </div>
+            </div>
+          </div>
+          <!-- social media section -->
+          <div class="border rounded-xl bg-[#13131808] text-center space-y-6 p-8 mt-10">
+            <h5 class="font-extrabold text-2xl">Social Media</h5>
+            <div class="space-x-6 text-2xl">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+
+          </div>
+        </div>
+      </section>
       <!-- Get in touch section end -->
     </main>
     <!-- Main End -->
